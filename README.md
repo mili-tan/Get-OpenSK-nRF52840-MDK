@@ -1,0 +1,1 @@
+# EasyOpenSK-nRF52840-MDK
