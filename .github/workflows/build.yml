@@ -11,6 +11,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Tag
+        uses: actions/github-script@v2
+        id: tag
+        with:
+          script: |
+            const now = new Date()
+            return `${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}`
+          result-encoding: string
         
       - name: Install Rust
         uses: actions-rs/toolchain@v1
@@ -50,5 +59,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          tag_name: ${{steps.tag.outputs.result}}
           files: |
             ./OpenSK/target/nrf52840_mdk_dfu_merged.uf2
