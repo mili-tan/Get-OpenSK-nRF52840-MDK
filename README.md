@@ -25,6 +25,5 @@ Makerdiary: [How to Buy nRF52840 MDK USB Dongle](https://wiki.makerdiary.com/nrf
 
 Actions Code released under The Unlicense.
 
-<p align="center">
+</br>
 <sub>此项目不隶属于 Google OpenSK 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sub>
-</p>
