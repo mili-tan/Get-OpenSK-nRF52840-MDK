@@ -11,13 +11,13 @@ If you never see `MDK-DONGLE`, maybe you should try [Upgrade to UF2 Bootloader](
 
 #### 如何购买 / How to Buy 
 
-如果你还没有 Makerdiaryn RF52840 MDK USB Dongle，你可以在这些地方买到。
+如果你还没有 Makerdiary RF52840 MDK USB Dongle，你可以在这些地方买到：
 
-If you don't already have the Makerdiaryn nRF52840 MDK USB Dongle, you can get it at these places.
+If you don't already have the Makerdiary nRF52840 MDK USB Dongle, you can get it at these places:
 
-淘宝：[带壳](https://item.taobao.com/item.htm?id=597968842403)/[单板](https://item.taobao.com/item.htm?id=578378054977) 
+淘宝：[带壳](https://item.taobao.com/item.htm?id=597968842403) / [单板](https://item.taobao.com/item.htm?id=578378054977) 
 
-Amazon: [With Case](https://www.amazon.com/GeeekPi-nRF52840-MDK-Dongle-Case/dp/B07TSJHTSY)/[Only PCBA](https://www.amazon.com/gp/product/B07MJ12XLG)
+Amazon: [With Case](https://www.amazon.com/GeeekPi-nRF52840-MDK-Dongle-Case/dp/B07TSJHTSY) / [Only PCBA](https://www.amazon.com/gp/product/B07MJ12XLG)
 
 Makerdiary: [How to Buy nRF52840 MDK USB Dongle](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/how-to-buy/)
 
@@ -26,4 +26,4 @@ Makerdiary: [How to Buy nRF52840 MDK USB Dongle](https://wiki.makerdiary.com/nrf
 Actions Code released under The Unlicense.
 
 </br>
-<sub>此项目不隶属于 Google OpenSK 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sub>
+<sup>此项目不隶属于 Google OpenSK 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sup>
