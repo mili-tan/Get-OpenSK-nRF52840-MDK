@@ -5,7 +5,7 @@
 
 如果你始终没有看到 `MDK-DONGLE` ，也许你应该试试 [升级到 UF2 Bootloader](https://blog.makerdiary.com/zh-hans/google-opensk-quick-start/#-uf2-bootloader)。
 
-Press and hold the button on the USB Key and insert it into the computer, wait until the green light turns on and the removable disk device named `MDK-DONGLE` appears. Download and copy [this file](https://github.com/mili-tan/GetOpenSK-nRF52840-MDK/releases/latest/download/nrf52840_mdk_dfu_merged.uf2) to the drive, and when the copy is complete, a device named OpenSK will appear. The device named OpenSK will appear.
+Press and hold the button on the USB Key and insert it into the computer, wait until the green light turns on and the removable disk device named `MDK-DONGLE` appears. Download and copy [this file](https://github.com/mili-tan/GetOpenSK-nRF52840-MDK/releases/latest/download/nrf52840_mdk_dfu_merged.uf2) to the drive, and when the copy is complete, a device named OpenSK will appear. 
 
 If you never see `MDK-DONGLE`, maybe you should try [Upgrade to UF2 Bootloader](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/programming/#upgrade-to-uf2-bootloader-from-open-bootloader) .
 
@@ -20,10 +20,6 @@ If you don't already have the Makerdiary nRF52840 MDK USB Dongle, you can get it
 Amazon: [With Case](https://www.amazon.com/GeeekPi-nRF52840-MDK-Dongle-Case/dp/B07TSJHTSY) / [Only PCBA](https://www.amazon.com/gp/product/B07MJ12XLG)
 
 Makerdiary: [How to Buy nRF52840 MDK USB Dongle](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/how-to-buy/)
-
-#### License
-
-Actions Code released under The Unlicense.
 
 </br>
 <sup>此项目不隶属于 Google OpenSK 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sup>
