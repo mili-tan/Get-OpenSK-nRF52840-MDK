@@ -56,11 +56,12 @@ jobs:
           md5sum ./nrf52840_mdk_dfu_merged.uf2
           md5sum ./nrf52840_mdk_dfu_merged.uf2 > ./nrf52840_mdk_dfu_merged.uf2.md5
           
-      - name : Upload Artifact
-        uses: actions/upload-artifact@master
+      - name: Delete Older Release
+        uses: dev-drprasad/delete-older-releases@v0.1.0
         with:
-          name: EasyOpenSK-nRF52840-MDK
-          path: ./OpenSK/target
+          keep_latest: 5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Release
         uses: softprops/action-gh-release@v1
