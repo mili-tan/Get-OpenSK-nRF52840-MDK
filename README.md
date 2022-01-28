@@ -22,4 +22,4 @@ Amazon: [With Case](https://www.amazon.com/GeeekPi-nRF52840-MDK-Dongle-Case/dp/B
 Makerdiary: [How to Buy nRF52840 MDK USB Dongle](https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/how-to-buy/)
 
 </br>
-<sup>此项目不隶属于 Google OpenSK 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sup>
+<sup>此项目不隶属于 <a href="https://github.com/google/OpenSK/">Google OpenSK</a> 或 Makerdiary，也未受到他们的认可 / This project is not affiliated with, or endorsed by, Google OpenSK or Makerdiary</sup>
