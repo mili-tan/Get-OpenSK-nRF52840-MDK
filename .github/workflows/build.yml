@@ -42,6 +42,7 @@ jobs:
           
       - name: Build
         run: |
+          export CARGO_NET_GIT_FETCH_WITH_CLI=true
           cd ./OpenSK
           ./setup.sh
           ./deploy.py --board=nrf52840_mdk_dfu --opensk --programmer=none
