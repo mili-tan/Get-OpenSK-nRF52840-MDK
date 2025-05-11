@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v2
@@ -31,9 +31,7 @@ jobs:
           sudo apt update
           sudo apt install git
           sudo apt install wget
-          sudo apt install python3-pip
-          sudo apt autoremove
-      
+          
       - name: Git Clone
         run: |
           git clone https://github.com/google/OpenSK
@@ -45,7 +43,7 @@ jobs:
           ./setup.sh
           ./deploy.py --board=nrf52840_mdk_dfu --opensk --programmer=none
           wget https://github.com/makerdiary/nrf52840-mdk-usb-dongle/raw/master/tools/uf2conv.py
-          python uf2conv.py -c -f 0xada52840 -o ./target/nrf52840_mdk_dfu_merged.uf2 ./target/nrf52840_mdk_dfu_merged.hex
+          python3 uf2conv.py -c -f 0xada52840 -o ./target/nrf52840_mdk_dfu_merged.uf2 ./target/nrf52840_mdk_dfu_merged.hex
           
       - name: Check Hash
         run: |
